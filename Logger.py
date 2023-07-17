@@ -1,3 +1,4 @@
+from flask_socketio import emit
 class Logger:
     def __init__(self, name, trigger=None) -> None:
         self.name = name
